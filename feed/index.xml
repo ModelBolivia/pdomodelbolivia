@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Model Bolvia PDO</title>
+	<atom:link href="https://modelbolivia.github.io/pdomodelbolivia/feed/" rel="self" type="application/rss+xml" />
+	<link>https://modelbolivia.github.io/pdomodelbolivia</link>
+	<description></description>
+	<lastBuildDate>Sun, 21 Jul 2024 00:17:37 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<item>
+		<title>¡Hola, mundo!</title>
+		<link>https://modelbolivia.github.io/pdomodelbolivia/2024/07/21/hola-mundo/</link>
+					<comments>https://modelbolivia.github.io/pdomodelbolivia/2024/07/21/hola-mundo/#comments</comments>
+		
+		<dc:creator><![CDATA[Freddyicto14]]></dc:creator>
+		<pubDate>Sun, 21 Jul 2024 00:17:37 +0000</pubDate>
+				<category><![CDATA[Sin categoría]]></category>
+		<guid isPermaLink="false">https://modelbolivia.github.io/pdomodelbolivia/?p=1</guid>
+
+					<description><![CDATA[Te damos la bienvenida a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡luego [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Te damos la bienvenida a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡luego empieza a escribir!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://modelbolivia.github.io/pdomodelbolivia/2024/07/21/hola-mundo/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

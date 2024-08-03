@@ -1,0 +1,770 @@
+[2024-08-03 22:00:36] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-08-03 22:00:36] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-08-03 22:00:37] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-08-03 22:00:41] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-08-03 22:00:41] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-08-03 22:00:41] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-08-03 22:00:46] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436\
+[2024-08-03 22:00:46] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/pdomodelbolivia/
+[2024-08-03 22:00:47] [class-ss-setup-task.php:137] File C:\xampp\htdocs\pdomodelbolivia\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: C:/xampp/htdocs/pdomodelbolivia/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-03 22:00:47] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-08-03 22:00:47] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-03 22:00:47] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-03 22:00:47] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-08-03 22:00:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/
+[2024-08-03 22:00:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-08-03 22:00:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea88f2c2c2-ffA5LO.tmp
+[2024-08-03 22:00:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/?simply_static_page=538
+[2024-08-03 22:00:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/?simply_static_page=538
+[2024-08-03 22:00:51] [class-ss-url-fetcher.php:103] Filesize: 98588 bytes
+[2024-08-03 22:00:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-08-03 22:00:51] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-08-03 22:00:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea88f2c2c2-ffA5LO.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/index.html
+[2024-08-03 22:00:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:51] [class-ss-fetch-urls-task.php:159] Adding 46 URLs to the queue
+[2024-08-03 22:00:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:52] [class-ss-page.php:118] Checking Content Identical:ef46c151cd15c3a980800577b2bd0885d7a0119c===. Value: FALSE
+[2024-08-03 22:00:52] [class-ss-fetch-urls-task.php:72] URL: C:/xampp/htdocs/pdomodelbolivia/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-08-03 22:00:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-08-03 22:00:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:52] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-08-03 22:00:52] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-08-03 22:00:52] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-03 22:00:52] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-03 22:00:52] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-03 22:00:53] [class-ss-fetch-urls-task.php:69] Total pages: 48; Pages remaining: 46
+[2024-08-03 22:00:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia
+[2024-08-03 22:00:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 48
+[2024-08-03 22:00:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89510d16-6uf8Sr.tmp
+[2024-08-03 22:00:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia?simply_static_page=540
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia?simply_static_page=540
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:103] Filesize: 363 bytes
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-08-03 22:00:53] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/pdomodelbolivia/
+[2024-08-03 22:00:53] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-08-03 22:00:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/pagina-ejemplo/
+[2024-08-03 22:00:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 48
+[2024-08-03 22:00:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea895494de-QSRbB2.tmp
+[2024-08-03 22:00:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/pagina-ejemplo/?simply_static_page=541
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/pagina-ejemplo/?simply_static_page=541
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:103] Filesize: 82071 bytes
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-ejemplo/index.html
+[2024-08-03 22:00:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea895494de-QSRbB2.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/pagina-ejemplo/index.html
+[2024-08-03 22:00:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:54] [class-ss-page.php:118] Checking Content Identical:1c5ad111f75f5b7e6eee044f6e1935c85ef51e7f===. Value: FALSE
+[2024-08-03 22:00:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/category/sin-categoria/
+[2024-08-03 22:00:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 48
+[2024-08-03 22:00:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8964001e-rwqRH6.tmp
+[2024-08-03 22:00:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/category/sin-categoria/?simply_static_page=542
+[2024-08-03 22:00:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/category/sin-categoria/?simply_static_page=542
+[2024-08-03 22:00:54] [class-ss-url-fetcher.php:103] Filesize: 88390 bytes
+[2024-08-03 22:00:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-08-03 22:00:54] [class-ss-url-fetcher.php:233] New filename for static page: /category/sin-categoria/index.html
+[2024-08-03 22:00:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8964001e-rwqRH6.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/category/sin-categoria/index.html
+[2024-08-03 22:00:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:55] [class-ss-page.php:118] Checking Content Identical:0c3af9ddb63e780cca5808727fc1e160c30a24cc===. Value: FALSE
+[2024-08-03 22:00:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/2024/07/21/hola-mundo/
+[2024-08-03 22:00:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 48
+[2024-08-03 22:00:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8975f905-wlGDaw.tmp
+[2024-08-03 22:00:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/2024/07/21/hola-mundo/?simply_static_page=543
+[2024-08-03 22:00:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/2024/07/21/hola-mundo/?simply_static_page=543
+[2024-08-03 22:00:55] [class-ss-url-fetcher.php:103] Filesize: 108581 bytes
+[2024-08-03 22:00:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-08-03 22:00:55] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/21/hola-mundo/index.html
+[2024-08-03 22:00:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8975f905-wlGDaw.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/2024/07/21/hola-mundo/index.html
+[2024-08-03 22:00:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:56] [class-ss-page.php:118] Checking Content Identical:12a7ba7029d3d705988b2412044a536cfe92ac27===. Value: FALSE
+[2024-08-03 22:00:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/2024/07/
+[2024-08-03 22:00:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 48
+[2024-08-03 22:00:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89879207-y4plVJ.tmp
+[2024-08-03 22:00:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/2024/07/?simply_static_page=544
+[2024-08-03 22:00:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/2024/07/?simply_static_page=544
+[2024-08-03 22:00:56] [class-ss-url-fetcher.php:103] Filesize: 87994 bytes
+[2024-08-03 22:00:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-08-03 22:00:56] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/index.html
+[2024-08-03 22:00:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89879207-y4plVJ.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/2024/07/index.html
+[2024-08-03 22:00:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:57] [class-ss-page.php:118] Checking Content Identical:cf54c7a8c806bda40b4490d5fe8c798b66cb91a9===. Value: FALSE
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/main-banner.jpg
+[2024-08-03 22:00:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 48
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89959696-rmuUaa.tmp
+[2024-08-03 22:00:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/main-banner.jpg?simply_static_page=545
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/main-banner.jpg?simply_static_page=545
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:103] Filesize: 204208 bytes
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/main-banner.jpg
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89959696-rmuUaa.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/images/main-banner.jpg
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:57] [class-ss-page.php:118] Checking Content Identical:703f3983ac3fe50fd45724f05a7655ee6d95c77a===. Value: FALSE
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-1.jpg
+[2024-08-03 22:00:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 48
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea899ac703-Jluksm.tmp
+[2024-08-03 22:00:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-1.jpg?simply_static_page=546
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-1.jpg?simply_static_page=546
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:103] Filesize: 200718 bytes
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-1.jpg
+[2024-08-03 22:00:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea899ac703-Jluksm.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/images/gallery-1.jpg
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:57] [class-ss-page.php:118] Checking Content Identical:d48507e02c1a6274549b7746fd59dd959205e27d===. Value: FALSE
+[2024-08-03 22:00:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-2.jpg
+[2024-08-03 22:00:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 48
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89a07501-49p880.tmp
+[2024-08-03 22:00:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-2.jpg?simply_static_page=547
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-2.jpg?simply_static_page=547
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:103] Filesize: 104496 bytes
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-2.jpg
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89a07501-49p880.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/images/gallery-2.jpg
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:58] [class-ss-page.php:118] Checking Content Identical:e0459e8153ae36ca414c60f0e72691835659a882===. Value: FALSE
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-3.jpg
+[2024-08-03 22:00:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 48
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89a50027-ih3MCs.tmp
+[2024-08-03 22:00:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-3.jpg?simply_static_page=548
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-3.jpg?simply_static_page=548
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:103] Filesize: 96817 bytes
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-3.jpg
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89a50027-ih3MCs.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/images/gallery-3.jpg
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:58] [class-ss-page.php:118] Checking Content Identical:a296a766f7976cdf4ddee5a7271a52ce70b25c51===. Value: FALSE
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-4.jpg
+[2024-08-03 22:00:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 48
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89a9553c-AD4zT5.tmp
+[2024-08-03 22:00:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-4.jpg?simply_static_page=549
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-4.jpg?simply_static_page=549
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:103] Filesize: 308334 bytes
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-4.jpg
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89a9553c-AD4zT5.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/images/gallery-4.jpg
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:58] [class-ss-page.php:118] Checking Content Identical:bc22a5d8a5c87b14147a0ed5ec6c75fda91cddd7===. Value: FALSE
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-5.jpg
+[2024-08-03 22:00:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 48
+[2024-08-03 22:00:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89ae3357-mtIUq1.tmp
+[2024-08-03 22:00:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-5.jpg?simply_static_page=550
+[2024-08-03 22:00:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-5.jpg?simply_static_page=550
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:103] Filesize: 83096 bytes
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-5.jpg
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89ae3357-mtIUq1.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/images/gallery-5.jpg
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:59] [class-ss-page.php:118] Checking Content Identical:bba212b3863022ea18313eee4ad3f1eb529b453c===. Value: FALSE
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-6.jpg
+[2024-08-03 22:00:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 48
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89b34792-qNZ50N.tmp
+[2024-08-03 22:00:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-6.jpg?simply_static_page=551
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-6.jpg?simply_static_page=551
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:103] Filesize: 151200 bytes
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-6.jpg
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89b34792-qNZ50N.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/images/gallery-6.jpg
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:59] [class-ss-page.php:118] Checking Content Identical:423e854f20c5f8d0024f1eaa16ff688eb06dd967===. Value: FALSE
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-7.jpg
+[2024-08-03 22:00:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 48
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89b7e6bd-GNUJXF.tmp
+[2024-08-03 22:00:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-7.jpg?simply_static_page=552
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-7.jpg?simply_static_page=552
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:103] Filesize: 167083 bytes
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-7.jpg
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89b7e6bd-GNUJXF.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/images/gallery-7.jpg
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:00:59] [class-ss-page.php:118] Checking Content Identical:7be6c38a36e638b0860b8b140ab75292e4f7259f===. Value: FALSE
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-8.jpg
+[2024-08-03 22:00:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 48
+[2024-08-03 22:00:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89bc8955-CDNNBY.tmp
+[2024-08-03 22:00:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-8.jpg?simply_static_page=553
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images/gallery-8.jpg?simply_static_page=553
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:103] Filesize: 171458 bytes
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/images/gallery-8.jpg
+[2024-08-03 22:00:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89bc8955-CDNNBY.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/images/gallery-8.jpg
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:00] [class-ss-page.php:118] Checking Content Identical:bbd814a945ac0fcb99c397fd17acb2ca2c3b5408===. Value: FALSE
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/js/jquery/jquery.min.js
+[2024-08-03 22:01:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 48
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89c20659-typVgb.tmp
+[2024-08-03 22:01:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/js/jquery/jquery.min.js?simply_static_page=554
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/js/jquery/jquery.min.js?simply_static_page=554
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:103] Filesize: 87555 bytes
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89c20659-typVgb.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/js/jquery/jquery.min.js
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:00] [class-ss-page.php:118] Checking Content Identical:f1283d45dc3e33b703b48c9a9d9495b3b49fd2a1===. Value: FALSE
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-08-03 22:01:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 48
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89c69efa-MPDwI8.tmp
+[2024-08-03 22:01:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=555
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=555
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:103] Filesize: 13579 bytes
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89c69efa-MPDwI8.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:00] [class-ss-page.php:118] Checking Content Identical:2b3f380f212c8c64e79db1f47fa25c114afe6fbb===. Value: FALSE
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-08-03 22:01:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 48
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89cae9c7-W9iKTS.tmp
+[2024-08-03 22:01:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=556
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=556
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:103] Filesize: 146374 bytes
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-08-03 22:01:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89cae9c7-W9iKTS.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:00] [class-ss-page.php:118] Checking Content Identical:7996d63abbbbe06e4ccbfdcfcc1979b4ef224eb6===. Value: FALSE
+[2024-08-03 22:01:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-08-03 22:01:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 48
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89d07b69-TJ6BNq.tmp
+[2024-08-03 22:01:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=557
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=557
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:103] Filesize: 17388 bytes
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89d07b69-TJ6BNq.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:01] [class-ss-page.php:118] Checking Content Identical:41cd89ef41484b59d50b766f5c8755c9a9084018===. Value: FALSE
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/js/animate.min.js
+[2024-08-03 22:01:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 48
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89d495e1-XgBY5n.tmp
+[2024-08-03 22:01:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/js/animate.min.js?simply_static_page=558
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/js/animate.min.js?simply_static_page=558
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:103] Filesize: 1377 bytes
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/js/animate.min.js
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89d495e1-XgBY5n.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/js/animate.min.js
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:01] [class-ss-page.php:118] Checking Content Identical:fd88bf020cc59bc8e5da824f24678a8eae669161===. Value: FALSE
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/blocks/navigation/view.min.js
+[2024-08-03 22:01:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 48
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89d8afa4-taY18u.tmp
+[2024-08-03 22:01:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/blocks/navigation/view.min.js?simply_static_page=559
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/blocks/navigation/view.min.js?simply_static_page=559
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89d8afa4-taY18u.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/blocks/navigation/view.min.js
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:01] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-08-03 22:01:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 48
+[2024-08-03 22:01:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89dd0aa8-W9AAFN.tmp
+[2024-08-03 22:01:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=560
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=560
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:103] Filesize: 8171 bytes
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-08-03 22:01:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89dd0aa8-W9AAFN.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:02] [class-ss-page.php:118] Checking Content Identical:60c8514c57a5db2980c4b046b0dd479bd427357b===. Value: FALSE
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-08-03 22:01:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 48
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89e20c0b-0qZBOj.tmp
+[2024-08-03 22:01:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=561
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=561
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:103] Filesize: 6625 bytes
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89e20c0b-0qZBOj.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:02] [class-ss-page.php:118] Checking Content Identical:0d792b33f12a48ee8aaaf2560a63a5682470645b===. Value: FALSE
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-08-03 22:01:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 48
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89e65cbc-EqljKr.tmp
+[2024-08-03 22:01:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=562
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=562
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:103] Filesize: 38590 bytes
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89e65cbc-EqljKr.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:02] [class-ss-page.php:118] Checking Content Identical:eab40ab4e77f92f2fb17684aaf44b579a51b8034===. Value: FALSE
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/dom-ready.min.js
+[2024-08-03 22:01:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 48
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89eaca0e-RKSbjF.tmp
+[2024-08-03 22:01:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/js/dist/dom-ready.min.js?simply_static_page=563
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/dom-ready.min.js?simply_static_page=563
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:103] Filesize: 458 bytes
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
+[2024-08-03 22:01:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89eaca0e-RKSbjF.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/js/dist/dom-ready.min.js
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:02] [class-ss-page.php:118] Checking Content Identical:ae9bf8529d4b118d5b9b6d8844f126f9feb801f7===. Value: FALSE
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/hooks.min.js
+[2024-08-03 22:01:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 48
+[2024-08-03 22:01:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89eefde1-Yf89dk.tmp
+[2024-08-03 22:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/js/dist/hooks.min.js?simply_static_page=564
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/hooks.min.js?simply_static_page=564
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:103] Filesize: 4308 bytes
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89eefde1-Yf89dk.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/js/dist/hooks.min.js
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:03] [class-ss-page.php:118] Checking Content Identical:098bdcebba4204f965ddf06090e67ae6684fb033===. Value: FALSE
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/i18n.min.js
+[2024-08-03 22:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 48
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89f433d8-CXzb8a.tmp
+[2024-08-03 22:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/js/dist/i18n.min.js?simply_static_page=565
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/i18n.min.js?simply_static_page=565
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:103] Filesize: 9142 bytes
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89f433d8-CXzb8a.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/js/dist/i18n.min.js
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:03] [class-ss-page.php:118] Checking Content Identical:2ddaab766af85575ddc6af68c0f721119a7c68a1===. Value: FALSE
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/frontend/index.js
+[2024-08-03 22:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 48
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89f8f630-pAZRYB.tmp
+[2024-08-03 22:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/frontend/index.js?simply_static_page=566
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/frontend/index.js?simply_static_page=566
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:103] Filesize: 3175 bytes
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/frontend/index.js
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89f8f630-pAZRYB.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/plugins/gutenify/core/dist/frontend/index.js
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:03] [class-ss-page.php:118] Checking Content Identical:3d01c6b78e40a9a7c54d2b224e3a47a2029f5e89===. Value: FALSE
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/feed/
+[2024-08-03 22:01:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 48
+[2024-08-03 22:01:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea89fd1205-SOqRce.tmp
+[2024-08-03 22:01:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/feed/?simply_static_page=567
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/feed/?simply_static_page=567
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:103] Filesize: 339 bytes
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-08-03 22:01:03] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.html
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea89fd1205-SOqRce.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/feed/index.html
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:04] [class-ss-page.php:118] Checking Content Identical:78b34363ea1298c37197cb00635edae14ac3cfa6===. Value: FALSE
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/comments/feed/
+[2024-08-03 22:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 48
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a037ffb-bn8KSe.tmp
+[2024-08-03 22:01:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/comments/feed/?simply_static_page=568
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/comments/feed/?simply_static_page=568
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:103] Filesize: 1507 bytes
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.html
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a037ffb-bn8KSe.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/comments/feed/index.html
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:04] [class-ss-page.php:118] Checking Content Identical:a44885436f290dba730f40df7096de238a7ac9c5===. Value: FALSE
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/blocks/navigation/style.min.css
+[2024-08-03 22:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 48
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a08ec67-PtwBYR.tmp
+[2024-08-03 22:01:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/blocks/navigation/style.min.css?simply_static_page=569
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/blocks/navigation/style.min.css?simply_static_page=569
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a08ec67-PtwBYR.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/blocks/navigation/style.min.css
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:04] [class-ss-page.php:118] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/blocks/social-links/style.min.css
+[2024-08-03 22:01:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 48
+[2024-08-03 22:01:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a0dea61-EUpxWL.tmp
+[2024-08-03 22:01:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/blocks/social-links/style.min.css?simply_static_page=570
+[2024-08-03 22:01:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/blocks/social-links/style.min.css?simply_static_page=570
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:103] Filesize: 10602 bytes
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/social-links/style.min.css
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a0dea61-EUpxWL.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/blocks/social-links/style.min.css
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:05] [class-ss-page.php:118] Checking Content Identical:6c08f679daa13a669bfdf48b1ca7a03f6312de07===. Value: FALSE
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/blocks/cover/style.min.css
+[2024-08-03 22:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 48
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a13a004-eAem52.tmp
+[2024-08-03 22:01:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/blocks/cover/style.min.css?simply_static_page=571
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/blocks/cover/style.min.css?simply_static_page=571
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:103] Filesize: 18483 bytes
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a13a004-eAem52.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/blocks/cover/style.min.css
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:05] [class-ss-page.php:118] Checking Content Identical:ccfb7af42aa2a6c835fe114841124074d139e257===. Value: FALSE
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/blocks/image/style.min.css
+[2024-08-03 22:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 48
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a18865d-Lu8raR.tmp
+[2024-08-03 22:01:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/blocks/image/style.min.css?simply_static_page=572
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/blocks/image/style.min.css?simply_static_page=572
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a18865d-Lu8raR.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/blocks/image/style.min.css
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:05] [class-ss-page.php:118] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: FALSE
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/blocks/gallery/style.min.css
+[2024-08-03 22:01:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 48
+[2024-08-03 22:01:05] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a1d3c30-RVdw6d.tmp
+[2024-08-03 22:01:05] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/blocks/gallery/style.min.css?simply_static_page=573
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/blocks/gallery/style.min.css?simply_static_page=573
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:103] Filesize: 15305 bytes
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/gallery/style.min.css
+[2024-08-03 22:01:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a1d3c30-RVdw6d.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/blocks/gallery/style.min.css
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:06] [class-ss-page.php:118] Checking Content Identical:804acf558af01f54052a7bdac05ef942c6ada35a===. Value: FALSE
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css
+[2024-08-03 22:01:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 48
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a22a657-gemlOl.tmp
+[2024-08-03 22:01:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css?simply_static_page=574
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css?simply_static_page=574
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:103] Filesize: 75386 bytes
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a22a657-gemlOl.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/css/font-awesome/css/all.css
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:06] [class-ss-page.php:118] Checking Content Identical:28a8e23f59596b17dc884c90e4e08d8adab3cd46===. Value: FALSE
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css
+[2024-08-03 22:01:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 48
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a282866-Hr0Jet.tmp
+[2024-08-03 22:01:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css?simply_static_page=575
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css?simply_static_page=575
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:103] Filesize: 232 bytes
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a282866-Hr0Jet.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control/style-index.css
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:06] [class-ss-page.php:118] Checking Content Identical:68a0e2cc04b5ec14bf8d809b48770687eaf038b1===. Value: FALSE
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/animate.css
+[2024-08-03 22:01:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 48
+[2024-08-03 22:01:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a2ce599-M5tUE5.tmp
+[2024-08-03 22:01:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/animate.css?simply_static_page=576
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/animate.css?simply_static_page=576
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:103] Filesize: 69160 bytes
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/css/animate.css
+[2024-08-03 22:01:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a2ce599-M5tUE5.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/css/animate.css
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:07] [class-ss-page.php:118] Checking Content Identical:19c1f4288b310c6d13e3b07015e55a03378e35a2===. Value: FALSE
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/fonts/7eb92dec1a24f53cd36406615254b402.css
+[2024-08-03 22:01:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 48
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a348464-mK5y0d.tmp
+[2024-08-03 22:01:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/fonts/7eb92dec1a24f53cd36406615254b402.css?simply_static_page=577
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/fonts/7eb92dec1a24f53cd36406615254b402.css?simply_static_page=577
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:103] Filesize: 1 bytes
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/7eb92dec1a24f53cd36406615254b402.css
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a348464-mK5y0d.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/fonts/7eb92dec1a24f53cd36406615254b402.css
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:07] [class-ss-page.php:118] Checking Content Identical:b858cb282617fb0956d960215c8e84d1ccf909c6===. Value: FALSE
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/style.css
+[2024-08-03 22:01:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 48
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a38dbe8-uUJUz6.tmp
+[2024-08-03 22:01:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/style.css?simply_static_page=578
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/style.css?simply_static_page=578
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:103] Filesize: 50896 bytes
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/style.css
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a38dbe8-uUJUz6.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/style.css
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:07] [class-ss-page.php:118] Checking Content Identical:a794f6490954ce8bf590280e23947c5fcc686728===. Value: FALSE
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/theme-style.css
+[2024-08-03 22:01:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 48
+[2024-08-03 22:01:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a3e6fb3-EYjmFt.tmp
+[2024-08-03 22:01:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/theme-style.css?simply_static_page=579
+[2024-08-03 22:01:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/theme-style.css?simply_static_page=579
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:103] Filesize: 244 bytes
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/gutenify-photoshot/css/theme-style.css
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a3e6fb3-EYjmFt.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/themes/gutenify-photoshot/css/theme-style.css
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:08] [class-ss-page.php:118] Checking Content Identical:28e6a62f02f7aff8a2ebfbb0485fbb4d7860d1bc===. Value: FALSE
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-08-03 22:01:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 48
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a43ef66-OOz6Vg.tmp
+[2024-08-03 22:01:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=580
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=580
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:103] Filesize: 55263 bytes
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a43ef66-OOz6Vg.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:08] [class-ss-page.php:118] Checking Content Identical:bc0d2aaa9a90d3335006f63e04cd8c5451dd80ec===. Value: FALSE
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/fonts/6af378c28777c682e3eea0276abe38de.css
+[2024-08-03 22:01:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 48
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a49ca4e-Gy9Z9G.tmp
+[2024-08-03 22:01:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/fonts/6af378c28777c682e3eea0276abe38de.css?simply_static_page=581
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/fonts/6af378c28777c682e3eea0276abe38de.css?simply_static_page=581
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:103] Filesize: 11544 bytes
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/6af378c28777c682e3eea0276abe38de.css
+[2024-08-03 22:01:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a49ca4e-Gy9Z9G.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/fonts/6af378c28777c682e3eea0276abe38de.css
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:08] [class-ss-page.php:118] Checking Content Identical:148c78128f308a670cf22a119544f68d7b47ded8===. Value: FALSE
+[2024-08-03 22:01:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/frontend/index.css
+[2024-08-03 22:01:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 48
+[2024-08-03 22:01:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a50a1be-IErwrF.tmp
+[2024-08-03 22:01:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/frontend/index.css?simply_static_page=582
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/frontend/index.css?simply_static_page=582
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:103] Filesize: 20338 bytes
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/frontend/index.css
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a50a1be-IErwrF.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-content/plugins/gutenify/core/dist/frontend/index.css
+[2024-08-03 22:01:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:09] [class-ss-page.php:118] Checking Content Identical:be3ec737e679ebabdf80221f9107ffb6a5e586fb===. Value: FALSE
+[2024-08-03 22:01:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-json/
+[2024-08-03 22:01:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 48
+[2024-08-03 22:01:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a569ebe-NuTE8K.tmp
+[2024-08-03 22:01:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-json/?simply_static_page=583
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-json/?simply_static_page=583
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:103] Filesize: 237409 bytes
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-json/index.html
+[2024-08-03 22:01:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a569ebe-NuTE8K.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-json/index.html
+[2024-08-03 22:01:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:10] [class-ss-page.php:118] Checking Content Identical:bdba0c355d650d15b517684ab9f691cd0b7d95aa===. Value: FALSE
+[2024-08-03 22:01:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/xmlrpc.php
+[2024-08-03 22:01:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 48
+[2024-08-03 22:01:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/pdomodelbolivia/xmlrpc.php
+[2024-08-03 22:01:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-08-03 22:01:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/interactivity.min.js
+[2024-08-03 22:01:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 48
+[2024-08-03 22:01:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a6eac5c-yv98O1.tmp
+[2024-08-03 22:01:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/wp-includes/js/dist/interactivity.min.js?simply_static_page=585
+[2024-08-03 22:01:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/wp-includes/js/dist/interactivity.min.js?simply_static_page=585
+[2024-08-03 22:01:11] [class-ss-url-fetcher.php:103] Filesize: 35086 bytes
+[2024-08-03 22:01:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-08-03 22:01:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-08-03 22:01:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8a6eac5c-yv98O1.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/wp-includes/js/dist/interactivity.min.js
+[2024-08-03 22:01:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:11] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:11] [class-ss-page.php:118] Checking Content Identical:c1df2a38ccdb1e2802b43b442dceaf4582286046===. Value: FALSE
+[2024-08-03 22:01:11] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 48 pages/files
+[2024-08-03 22:01:11] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-03 22:01:15] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-03 22:01:15] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-03 22:01:15] [class-ss-fetch-urls-task.php:69] Total pages: 49; Pages remaining: 1
+[2024-08-03 22:01:15] [class-ss-fetch-urls-task.php:72] URL: http://localhost/pdomodelbolivia/feed/index.xml
+[2024-08-03 22:01:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 49
+[2024-08-03 22:01:16] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-08-03 22:01:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8ac08729-71xT5z.tmp
+[2024-08-03 22:01:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/feed/index.xml?simply_static_page=586
+[2024-08-03 22:01:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/feed/index.xml?simply_static_page=586
+[2024-08-03 22:01:16] [class-ss-url-fetcher.php:103] Filesize: 1890 bytes
+[2024-08-03 22:01:16] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/xml
+[2024-08-03 22:01:16] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-08-03 22:01:16] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8ac08729-71xT5z.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436/feed/index.xml
+[2024-08-03 22:01:16] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-08-03 22:01:16] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-08-03 22:01:16] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-08-03 22:01:16] [class-ss-page.php:118] Checking Content Identical:78ca4add92e8ba7b8b45fb189472942e9688f9ba===. Value: FALSE
+[2024-08-03 22:01:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 48 of 49 pages/files
+[2024-08-03 22:01:16] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-08-03 22:01:16] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-08-03 22:01:16] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-08-03 22:01:16] [class-ss-fetch-urls-task.php:69] Total pages: 49; Pages remaining: 0
+[2024-08-03 22:01:16] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 49 of 49 pages/files
+[2024-08-03 22:01:16] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-08-03 22:01:16] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-08-03 22:01:16] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-08-03 22:01:16] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-08-03 22:01:16] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/66aea8ac8feb8-enNjmA.tmp
+[2024-08-03 22:01:16] [class-ss-page-handler.php:38] URL Prepared:http://localhost/pdomodelbolivia/1722722477?simply_static_page=0
+[2024-08-03 22:01:16] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/pdomodelbolivia/1722722477?simply_static_page=0
+[2024-08-03 22:01:21] [class-ss-url-fetcher.php:103] Filesize: 79594 bytes
+[2024-08-03 22:01:21] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-08-03 22:01:21] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-08-03 22:01:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/66aea8ac8feb8-enNjmA.tmp to C:\xampp\htdocs\pdomodelbolivia/wp-content/uploads\simply-static\temp-files/simply-static-1-1722722436\404/index.html
+[2024-08-03 22:01:21] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-08-03 22:01:21] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-08-03 22:01:21] [class-ss-page.php:118] Checking Content Identical:4e2d15df27fae951b81fb337ae3b7fc7a9941da1===. Value: FALSE
+[2024-08-03 22:01:21] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-08-03 22:01:21] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-08-03 22:01:21] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-08-03 22:01:21] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-08-03 22:01:21] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 46 of 46 files
+[2024-08-03 22:01:21] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/pagina-ejemplo
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/category/sin-categoria
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/2024/07/21/hola-mundo
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/2024/07
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/images
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/js/jquery
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/js/jquery
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/js/lib
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/js
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/blocks/navigation
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/js/dist/vendor
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/js/dist/vendor
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/js/dist/vendor
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/js/dist
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/js/dist
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/js/dist
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/frontend
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/feed
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/comments/feed
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/blocks/navigation
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/blocks/social-links
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/blocks/cover
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/blocks/image
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/blocks/gallery
+[2024-08-03 22:01:22] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css/font-awesome/css
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/extend/responsive-display-control
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/fonts
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/themes/gutenify-photoshot/css
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/plugins/gutenify/core/assets/fontawesome/css
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/fonts
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-content/plugins/gutenify/core/dist/frontend
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-json
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/wp-includes/js/dist
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/pdomodelbolivia/feed
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:46. Processed Pages: 46
+[2024-08-03 22:01:23] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 46 of 46 files
+[2024-08-03 22:01:23] [trait-can-process-pages.php:103] Total pages: 46; Pages remaining: 0
+[2024-08-03 22:01:23] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-08-03 22:01:23] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://modelbolivia.github.io/pdomodelbolivia/" target="_blank">https://modelbolivia.github.io/pdomodelbolivia/</a>
+[2024-08-03 22:01:23] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-08-03 22:01:23] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-08-03 22:01:23] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-08-03 22:01:23] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-08-03 22:01:23] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-08-03 22:01:23] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-08-03 22:01:23] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-08-03 22:01:23] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:47
