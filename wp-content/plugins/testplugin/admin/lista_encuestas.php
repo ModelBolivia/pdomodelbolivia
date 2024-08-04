@@ -11,7 +11,7 @@
     $query = " SELECT EncuestaId FROM $tabla ORDER BY EncuestaId  DESC limit 1 ";
     $resultado = $wpdb->get_results($query,ARRAY_A);
     $proximoId = $resultado[0]['EncuestaId'] + 1;
-    $shortcode = "{ENC id='$proximoId'}";
+    $shortcode = "[ENC id='$proximoId']";
     $datos = [
       'EncuestaId' => null,
       'Nombre' => $nombre,
@@ -130,14 +130,14 @@
                       <input type="text" name="name[]" id="name" class="form-control name_list" >
                     </td>
                     <td>
-                      <select name="type[]" id="type" class="form-control type_list" style="margi-left:15px">
+                      <select name="type[]" id="type" class="form-control type_list" style="margi-left:5px">
                         <option value="1" select>SI - NO</option>
                         <option value="2">Rango 0 - 5</option>
                         <option value="3">Respuesta Breve</option>
                    
                       </select>
 
-                      </select>
+                      
                     </td>
                     <td>
                       <button name="add" id="add" class="btn btn-success" style="margi-left:5px">Agregar Mas </button>
